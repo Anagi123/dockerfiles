@@ -1,0 +1,2 @@
+FROM almalinux:8
+RUN echo "Welcome to docker" > /tmp/hello.txt
