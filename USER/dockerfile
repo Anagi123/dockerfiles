@@ -1,2 +1,4 @@
 FROM almalinux:8
+RUN useradd nageswari
+USER nageswari
 RUN echo "Welcome to docker" > /tmp/hello.txt
